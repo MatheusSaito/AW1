@@ -1,0 +1,121 @@
+body {
+    background: rgb(3, 19, 247);
+    font-family: 'Roboto', sans-serif;
+}
+
+#cabecalho a {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#cabecalho a:link {
+    color: rgb(0, 0, 0);
+    padding: 10px 14px;
+}
+
+#cabecalho a:visited {
+    color: black;
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover {
+    color: #ffffff;
+    background: rgb(13, 45, 228);
+    border-radius: 5cm;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(233, 0, 0);
+}
+
+a:visited {
+    color: rgb(6, 163, 253);
+}
+
+a:hover {
+    color: orangered;
+}
+
+h2 {
+    color: rgb(17, 132, 209);
+    margin: 10px;
+}
+
+h3 {
+    color: #000000;
+    margin-top: 4px;
+    padding: 3px;
+}
+
+
+#data {
+    font-size: 0, 7em;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin: 10px;
+}
+
+#cabecalho {
+    width: 950px;
+    margin: 10px auto;
+    padding: 15px;
+    background: rgb(1, 210, 247);
+    text-align: center;
+}
+
+#cabecalho_nome,
+#menu {
+    padding: 10px;
+}
+
+#principal {
+    width: 950px;
+    margin: 10px auto;
+}
+
+#rodape {
+    clear: both;
+    width: 950px;
+    margin: 10px auto;
+    padding: 15px;
+    color: #CCC;
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#postagem {
+    width: 660px;
+    margin: 10px;
+    float: left;
+}
+
+#lateral {
+    width: 240px;
+    margin: 10px;
+    float: right;
+}
+
+.conteudo_postagem {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+}
+
+.conteudo-lateral {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+}
+
+.postagem-lateral a:link {
+    color: rgb(20, 53, 202)
+}
+
+.cor {
+    color: rgb(0, 16, 247);
+}

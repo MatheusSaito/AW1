@@ -1,0 +1,30 @@
+div {
+    background-image: url(/cosas+de+el+papi+rico-1816244612);
+    background-color: blue;
+    background-attachment: fixed;
+    background-size: auto;
+    border-radius: 1cm;
+    border: 10px solid rgb(0, 0, 0);
+    height: 22cm;
+    width: 40cm;
+    filter: blur(100%);
+    box-shadow: 5px 5px 37px 17px #000000;
+    cursor: crosshair;
+}
+
+div img{
+    height: 100px;
+    border-radius: 10px;
+}
+
+img:hover {
+    -webkit-transform: scale(1.2);
+    box-shadow: 3px 3px 4px orange;
+    transition: 1s;
+}
+
+p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -0.1cm;
+}

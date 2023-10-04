@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    text-decoration: none;
+    color: #fff;
+    background: #0905df;
+    transition: 0.2s;
+}
+
+ul a:hover {
+    color: rgb(19, 0, 128);
+    background: rgb(13, 173, 194);
+}
+
+#home #navegacao .home a,
+#suplementos #navegacao .suplementos a
+{
+    background-position: right bottom;
+    background-color: #0905df;
+    color: #fff;
+}

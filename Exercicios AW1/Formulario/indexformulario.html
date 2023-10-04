@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tarefa </title>
+
+    <style>
+        table{
+            border: 2px solid #D3D3D3;
+        }
+        textarea {
+            resize: none;
+            height: 60px;
+        }
+        h1{
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+     
+    <table>
+       <form>
+           <tr>
+               <td colspan="2"> <h1> Envie a mensagem para preencher o formulário </h1>
+            </td>
+           </tr>
+                <tr>
+                    <td> Seu Nome: </td>
+                    <td> <input type="text" name = "nome" placeholder="Digite seu nome"></td>
+                </tr>
+
+                <tr>
+                    <td>Coloque sua data de nascimento: </td>
+                    <td><input type="date" name="nascimento" id="date"></td>
+                </tr>
+
+                <tr>
+                    <td> Seu telefone: </td>
+                    <td> <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone"></td>
+                </tr>
+
+                <tr>
+                    <td> Seu E-mail: </td>
+                    <td> <input type="email" name="email" id="emails" placeholder="Digite seu E-mail"></td>
+                </tr>
+
+                <tr>
+                    <td> Digite sua senha: </td>
+                    <td> <input type="password" name="password" id="senha" placeholder="Digite sua senha"></td>
+                </tr>
+
+                <tr>
+                    <td> Digite sua cor favorita: </td>
+                    <td> <input type="color" name="cor" id="colorfav"></td>
+                </tr>
+
+                <tr>
+                    <td> Deseja receber nossas novidades? </td>
+                    <td><input type="radio" name="opcao"> Sim <input type="radio" name="opcao"> Não </td>
+                </tr>
+
+                <tr>
+                    <td> Mande um arquivo com seus dados: </td>
+                    <td> <input type="file" name="arquivo" id="dados" value="Adicione seu envio"></td>
+                </tr>
+
+                <tr>
+                    <td>Sua mensagem: </td>
+                    <td> <textarea name="Mensagem" id="MensagemUsuario" placeholder="Mensagem" cols="30" rows="10"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td> <input type="button" value="Enviar"></td>
+                </tr>
+                
+        </form>
+    </table>
+</body>
+</html>

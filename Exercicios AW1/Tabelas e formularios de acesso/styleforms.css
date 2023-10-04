@@ -1,0 +1,54 @@
+#container {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(5, 68, 255);
+    border-radius: 10px;
+    margin: 0, auto;
+    margin-top: 120px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+#container img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.submit {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px 20px;
+    height: 45px;
+    width: 120px;
+}
+
+input.email {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/usuario.png);
+}
+
+input.senha {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/cadeado.png);
+}

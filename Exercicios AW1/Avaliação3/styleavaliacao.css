@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #0459f8;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+#home {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.capa h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: #0459f8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0077aa;
+}
+
+#servicos {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.albuns img {
+    max-width: 100%;
+    height: auto;
+}
+
+#servicos h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#servicos h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#recursos {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+#recursos h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#recursos h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #0459f8;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a img {
+    max-width: 32px;
+    height: auto;
+    margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler {
+        background-color: #fff;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #333;
+    }
+
+    .navbar-collapse {
+        background-color: #333;
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn-custom {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
